@@ -159,7 +159,7 @@ val_pipeline = [
 
 test_pipeline = val_pipeline
 
-data_root = 'data/coco'
+data_root = '/media/wyj/linux/linux-2'
 data = dict(
     samples_per_gpu=64,
     workers_per_gpu=2,
